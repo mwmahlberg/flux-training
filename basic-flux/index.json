@@ -18,8 +18,7 @@
       },
       {
         "title": "Create a GitHub Repository",
-        "text": "step3/text.md",
-        "verify": "step3/verify.sh"
+        "text": "step3/text.md"
       }
     ],
     "finish": {
