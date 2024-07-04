@@ -4,11 +4,11 @@ Now, we set up git and the gh client:
 
     The basic settings should look similar to this:
 
-    ![Basic Settings](../assets/step4/BasicSettings.png)
+![Basic Settings](../assets/step4/BasicSettings.png)
 
     The only permission required for that token is:
 
-    ![Required Permissions](../assets/step4/Permission.png)
+![Required Permissions](../assets/step4/Permission.png)
 
     After clicking "Generate Token", your token will be shown -- ***once***.
 
