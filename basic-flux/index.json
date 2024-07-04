@@ -19,6 +19,11 @@
       {
         "title": "Create a GitHub Repository",
         "text": "step3/text.md"
+      },
+      {
+        "title": "Authenticate with GitHub",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
       }
     ],
     "finish": {
