@@ -1,14 +1,14 @@
 Now, we set up git and the gh client:
 
-1. [Create a personal access token (PAT) at Github](https://github.com/settings/personal-access-tokens/new){:target="_blank"}.
+1. [Create a personal access token (PAT) at Github](https://github.com/settings/personal-access-tokens/new).
 
     The basic settings should look similar to this:
 
-![Basic Settings](../assets/step4/BasicSettings.png)
+    ![Basic Settings](../../assets/basic-flux/step4/BasicSettings.png)
 
     The only permission required for that token is:
 
-![Required Permissions](../assets/step4/Permission.png)
+    ![Required Permissions](../../assets/basic-flux/step4/Permission.png)
 
     After clicking "Generate Token", your token will be shown -- ***once***.
 
