@@ -1,3 +1,3 @@
 #!/bin/bash
-
-gh repo list || exit 1
+set -e
+find . -type d -name .git | grep -q "."
