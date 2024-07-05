@@ -18,9 +18,9 @@ Now, we set up git and the gh client:
 
     `export GITHUB_TOKEN=<YourPAT>`{{copy}}
 
-3. Use your PAT to authenticate with the gh client:
+3. Check that we can access our repo:
 
-    `echo $GITHUB_TOKEN | gh auth login -p https -h github.com --with-token`{{exec}}
+    `gh repo clone $GH_REPO`{{exec}}
 
 The `$GITHUB_TOKEN`{{}} is [also needed for bootstrapping flux with GitHub](https://fluxcd.io/flux/installation/bootstrap/github/#github-pat).
 
