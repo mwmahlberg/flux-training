@@ -8,4 +8,4 @@ However, uninstalling flux will not uninstall resources installed by flux:
 
 You will need to uninstall them manually:
 
-`kubectl delete all -l app.kubernetes.io/name=podinfo`
+`kubectl delete all -l app.kubernetes.io/name=podinfo`{{exec}}
