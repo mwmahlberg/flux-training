@@ -34,10 +34,7 @@
       {
         "title": "Install a helm repository",
         "description": "Install a helm repository for flux to use",
-        "text": "step6/text.md",
-        "interface": {
-          "layout": "ide"
-        }
+        "text": "step6/text.md"
       }
     ],
     "finish": {
@@ -46,5 +43,8 @@
   },
   "backend": {
     "imageid": "kubernetes-kubeadm-1node"
+  },
+  "interface": {
+    "layout": "ide"
   }
 }
