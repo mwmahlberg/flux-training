@@ -2,6 +2,9 @@ Now we have installed flux, we can roll out things.
 
 Create a file in `mycluster/clusters/killercoda/podinfo`{{}} named `helm-repo.yaml` with the following content:
 
+Create the resource file for the podinfo chart
+----------------------------------------------
+
 ```
 ---
 apiVersion: source.toolkit.fluxcd.io/v1
@@ -21,3 +24,21 @@ git add clusters/killercoda/podinfo/helm-repo.yaml
 git commit -m "feat: Add helm repo for podinfo"
 git push origin main
 ```{{exec}}
+
+Ensure the rollout of the HelmRepository
+----------------------------------------
+
+Usually, flux syncs the git repositories every minute automatically.
+However, we want to speed up things, so we use the flux CLI to force
+a "reconciliation":
+
+`flux reconcile source git flux-system`{{exec}}
+
+
+Wait for flux to process the HelmRepository ressource
+-----------------------------------------------------
+
+We can use conditions to check whether the ressource file was
+properly processed. The following command will time out after 30s:
+
+`kubectl wait helmrepositories.source.toolkit.fluxcd.io/podinfo --for condition=Ready=True --for condition=ArtifactInStorage=True`{{exec}}
