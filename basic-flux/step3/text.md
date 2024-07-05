@@ -1,6 +1,6 @@
 Head over to github and create a _personal_ git repository.
 
-Then, export the clone URL in the shell:
+Then, export the owner and name of the repo in the shell:
 
-`export GH_REPO=https://github.com/...`{{copy}}
+`export GH_REPO=<yourGithubUsername>/<repoName>`{{copy}}
 
