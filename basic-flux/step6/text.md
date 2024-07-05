@@ -1,9 +1,14 @@
 Now we have installed flux, we can roll out things.
 
-Create a file in `mycluster/clusters/killercoda/podinfo`{{}} named `helm-repo.yaml` with the following content:
+Create a directory for your resource
+------------------------------------
 
-Create the resource file for the podinfo chart
-----------------------------------------------
+`mkdir -p mycluster/clusters/killercoda/podinfo`{{exec}}
+
+Create a resource file for a helm repository
+--------------------------------------------
+
+Create a file in `mycluster/clusters/killercoda/podinfo/helm-repo.yaml`{{open}} with the following content:
 
 ```
 ---
