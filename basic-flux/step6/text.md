@@ -1,0 +1,1 @@
+Now we have installed flux, we can roll out things.
