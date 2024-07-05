@@ -24,6 +24,12 @@
         "title": "Authenticate with GitHub",
         "text": "step4/text.md",
         "verify": "step4/verify.sh"
+      },
+      {
+        "title": "Bootstrap Flux",
+        "description": "Bootstrap Flux in the cluster and link it to the GitHub repository",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
       }
     ],
     "finish": {
