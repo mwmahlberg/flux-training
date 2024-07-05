@@ -43,6 +43,12 @@
         "text": "step7/text.md",
         "verify": "step7/verify.sh",
         "hint": "step7/hint.md"
+      },
+      {
+        "title": "Uninstall flux",
+        "description": "Uninstall flux from the cluster",
+        "text": "step8/text.md",
+        "verify": "step8/verify.sh"
       }
     ],
     "finish": {
