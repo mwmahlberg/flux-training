@@ -32,9 +32,10 @@
         "verify": "step5/verify.sh"
       },
       {
-        "title": "Install a helm repository",
+        "title": "Install a helm repository into flux",
         "description": "Install a helm repository for flux to use",
-        "text": "step6/text.md"
+        "text": "step6/text.md",
+        "verify": "step6/verify.sh"
       }
     ],
     "finish": {
