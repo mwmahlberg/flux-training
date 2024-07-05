@@ -13,3 +13,11 @@ spec:
   interval: 5m
   url: https://stefanprodan.github.io/podinfo
 ```{{copy}}
+
+Next, commit the file and push it:
+
+```
+git add clusters/killercoda/podinfo/helm-repo.yaml
+git commit -m "feat: Add helm repo for podinfo"
+git push origin main
+```{{exec}}
