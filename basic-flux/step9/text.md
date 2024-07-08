@@ -7,7 +7,7 @@ flux bootstrap github \
   --token-auth \
   --owner=${GH_REPO%/*} \
   --repository=${GH_REPO#*/} \
-  --branch=main \
+  --branch=master \
   --path=clusters/killercoda
 ```{{exec}}
 
