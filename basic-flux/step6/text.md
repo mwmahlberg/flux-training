@@ -6,6 +6,8 @@ Create a resource file for a helm repository
 Create a file `helm-repo.yaml` in `mycluster/clusters/killercoda/podinfo/`{{}} with the  content below.
 
 > Note: The directory was created automatically for your convenience.
+---
+> Also note: You need to make sure to use the correct branch.
 
 ```
 ---
