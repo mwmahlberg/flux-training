@@ -56,6 +56,13 @@
         "description": "Bootstrap Flux in the cluster and link it to the existing configuration",
         "text": "step9/text.md",
         "verify": "step9/verify.sh"
+      },
+      {
+        "title": "Deploy a kustomization",
+        "description": "Deploy a kustomization using flux",
+        "text": "step10/text.md",
+        "foreground": "step10/mkkustomization.sh",
+        "verify": "step10/verify.sh"
       }
     ],
     "finish": {

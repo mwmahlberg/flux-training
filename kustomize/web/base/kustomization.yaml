@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+metadata:
+  name: simple-web
+resources:
+- deployment.yaml
+- service.yaml
+configMapGenerator:
+- files:
+  - default.conf=nginx-default.conf
+  name: custom-nginx
+  options:
+    labels:
+      app: simple-web
+namespace: mynamespace
