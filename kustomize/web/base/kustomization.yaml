@@ -12,4 +12,3 @@ configMapGenerator:
   options:
     labels:
       app: simple-web
-namespace: mynamespace
