@@ -18,23 +18,26 @@ Now, we set up git and the gh client:
 
     `export GITHUB_TOKEN=<YourPAT>`{{copy}}
 
-3. Check that we can access our repo:
+3. Set up the name for the git user:
+
+    `git config --global user.name "<YourName>"`{{copy}}
+
+4. Set up the email for the git user:
+   
+    `git config --global user.email "<YourEmail>"`{{copy}}
+
+5. Check that we can access our repo:
 
     `gh repo clone $GH_REPO mycluster`{{exec}}
 
-4. Setup git authentication:
+6. Setup git authentication:
 
     ```
     cd mycluster 
     gh auth setup-git
     ```{{exec}}
 
-5. Set up the name for the git user:
 
-    `git config user.name "<YourName>"`{{copy}}
-
-6. Set up the email for the git user:
-    `git config user.email "<YourEmail>"`{{copy}}
 
 
 The `$GITHUB_TOKEN`{{}} is [also needed for bootstrapping flux with GitHub](https://fluxcd.io/flux/installation/bootstrap/github/#github-pat).
