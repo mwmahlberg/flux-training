@@ -15,7 +15,8 @@ For the sake of simplicity, we will use an already existing repository.
       url: https://github.com/mwmahlberg/flux-training
       ref:
         branch: main
-    ```
+    ```{{copy}}
+
 2. Create a resource file for the kustomization under `mycluster/clusters/killercoda/nginx`{{}}:
 
     > Do ***not*** name the file `kustomization.yaml`{{}}. This is a reserved name.
@@ -35,7 +36,9 @@ For the sake of simplicity, we will use an already existing repository.
       path: "./kustomize/web/base"
       prune: true
       timeout: 2m
-    ```
+    ```{{copy}}
+
 3. Commit and push the changes.
 4. Wait for the deployment to become ready: `kubectl -n default wait deployment -l app=simple-web --for condition=available`{{exec}}
-5. [Watch the web page]({{TRAFFIC_HOST1_8080}})
+5. Forward the service port: `kubectl port-forward services/simple-web 8080:8080 --address 0.0.0.0`{{exec}}
+6. [Watch the web page]({{TRAFFIC_HOST1_8080}})
