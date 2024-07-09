@@ -2,4 +2,4 @@
 
 set -e
 
-kubectl -n mynamespace wait deployment -l app=simple-web --for condition=available
+kubectl -n default wait deployment -l app=simple-web --for condition=available

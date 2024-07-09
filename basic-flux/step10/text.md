@@ -18,6 +18,8 @@ For the sake of simplicity, we will use an already existing repository.
     ```
 2. Create a resource file for the kustomization under `mycluster/clusters/killercoda/nginx`{{}}:
 
+    > Do ***not*** name the file `kustomization.yaml`{{}}. This is a reserved name.
+
     ```yaml
     apiVersion: kustomize.toolkit.fluxcd.io/v1
     kind: Kustomization
@@ -35,4 +37,4 @@ For the sake of simplicity, we will use an already existing repository.
       timeout: 2m
     ```
 3. Commit and push the changes.
-4. Wait for the deployment to become ready: `kubectl -n mynamespace wait deployment -l app=simple-web --for condition=available`{{exec}}
+4. Wait for the deployment to become ready: `kubectl -n default wait deployment -l app=simple-web --for condition=available`{{exec}}
