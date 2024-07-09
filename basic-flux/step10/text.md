@@ -22,7 +22,7 @@ For the sake of simplicity, we will use an already existing repository.
     apiVersion: kustomize.toolkit.fluxcd.io/v1
     kind: Kustomization
     metadata:
-      name: podinfo
+      name: web
       namespace: default
     spec:
       interval: 10m
