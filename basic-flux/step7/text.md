@@ -1,6 +1,6 @@
 Now, we install a helm release:
 
-```
+```yaml{26-31}
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
