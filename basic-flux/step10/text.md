@@ -38,3 +38,4 @@ For the sake of simplicity, we will use an already existing repository.
     ```
 3. Commit and push the changes.
 4. Wait for the deployment to become ready: `kubectl -n default wait deployment -l app=simple-web --for condition=available`{{exec}}
+5. [Watch the web page]({{TRAFFIC_HOST1_8080}})
