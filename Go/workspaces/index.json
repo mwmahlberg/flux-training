@@ -4,6 +4,21 @@
   "details": {
     "intro": {
       "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Initialize a Go Module",
+        "text": "1_create_project/text.md"
+      }
+    ],
+    "assets": {
+      "host01": [
+        {
+          "file": "1_create_project/main.go",
+          "target": "~/mycoolapp/main.go",
+          "chmod": "+w"
+        }
+      ]
     }
   },
   "backend": {
