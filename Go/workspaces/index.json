@@ -1,0 +1,9 @@
+{
+  "title": "Go: Workspaces",
+  "description": "Dealing with nulti-Module Go Projects",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    }
+  }
+}

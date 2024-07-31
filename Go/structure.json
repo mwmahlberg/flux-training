@@ -1,0 +1,9 @@
+{
+  "title": "Go Basics",
+  "description": "Some basics of developing in Go beyond the basic installation.",
+  "items": [
+    {
+      "path": "workspaces"
+    }
+  ]
+}
