@@ -5,5 +5,11 @@
     "intro": {
       "text": "intro.md"
     }
+  },
+  "backend": {
+    "imageid": "golang"
+  },
+  "interface": {
+    "layout": "ide"
   }
 }
