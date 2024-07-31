@@ -8,7 +8,8 @@
     "steps": [
       {
         "title": "Initialize a Go Module",
-        "text": "1_create_project/text.md"
+        "text": "1_create_project/text.md",
+        "verify": "1_create_project/verify.sh"
       }
     ],
     "assets": {
