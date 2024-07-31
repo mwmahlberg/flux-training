@@ -14,7 +14,7 @@
     "assets": {
       "host01": [
         {
-          "file": "1_create_project/main.go",
+          "file": "main.go",
           "target": "~/mycoolapp/main.go",
           "chmod": "+w"
         }
