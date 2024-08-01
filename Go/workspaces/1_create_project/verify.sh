@@ -14,6 +14,6 @@ stat ./mycoolapp/go.sum || exit 1
 
 pushd ./mycoolapp
 
-go run main.go || exit 1
+/usr/local/go/bin/go run main.go || exit 1
 
 popd
