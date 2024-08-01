@@ -2,4 +2,10 @@
 
 set -e
 
-bash -ec "pushd /root/mycoolapp; go run main.go; popd" || exit 1
+go env > /root/goenv
+
+pushd /root/mycoolapp
+
+go run main.go &> filename
+
+popd
