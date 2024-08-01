@@ -1,6 +1,8 @@
 #!/bin/bash
 
-set -e
+exec 19>logfile
+BASH_XTRACEFD=19
+
 set -x
 
 
