@@ -1,9 +1,10 @@
 #!/bin/bash
 
-exec 19>logfile
-BASH_XTRACEFD=19
+# To enable debug mode, uncomment the following lines
+# exec 19>logfile
+# BASH_XTRACEFD=19
 
-set -x
+set -ex
 
 
 
